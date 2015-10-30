@@ -1,0 +1,2 @@
+./correspondence_grouping_SHOT_Iterative_Obj-Obj test/ test/ --model_ss 0.015f --scene_ss 0.015f --rf_rad 0.08f --descr_rad 0.1f --cg_size 0.03f --cg_thresh 6.4f --kd_thresh 0.24f
+
