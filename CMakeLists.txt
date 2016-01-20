@@ -43,7 +43,7 @@ target_link_libraries (correspondence_grouping_SHOT_Obj-Obj ${catkin_LIBRARIES} 
 #add_executable (directoryScan  src/directoryScan.cpp)
 #target_link_libraries (directoryScan ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
-#add_executable (correspondence_grouping_SHOT_Iterative  src/correspondence_grouping_SHOT_Iterative.cpp)
+#add_executable (correspondence_grouping_SHOT_Iterative  src/correspondence_grouping_SHOT_Obj-Scene_Iterative.cpp)
 #target_link_libraries (correspondence_grouping_SHOT_Iterative ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
 add_executable (pcd_size  src/pcd_size.cpp)
