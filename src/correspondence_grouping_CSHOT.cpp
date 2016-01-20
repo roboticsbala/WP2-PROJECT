@@ -1,3 +1,5 @@
+//Extract CSHOT feature from two PCD files and match them using K-d tree
+
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_cloud.h>
 #include <pcl/correspondence.h>
