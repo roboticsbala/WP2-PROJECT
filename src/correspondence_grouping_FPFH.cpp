@@ -1,3 +1,6 @@
+//Extract FPFH feature from object model PCD and scene PCD file and match them using K-d tree
+//Use 3D Hough for grouping correspondences and estimate the pose in scene
+
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_cloud.h>
 #include <pcl/correspondence.h>
