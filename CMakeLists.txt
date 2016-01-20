@@ -43,8 +43,8 @@ target_link_libraries (correspondence_grouping_SHOT_Obj-Obj ${catkin_LIBRARIES} 
 #add_executable (directoryScan  src/directoryScan.cpp)
 #target_link_libraries (directoryScan ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
-#add_executable (correspondence_grouping_SHOT_Iterative  src/correspondence_grouping_SHOT_Obj-Scene_Iterative.cpp)
-#target_link_libraries (correspondence_grouping_SHOT_Iterative ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+#add_executable (correspondence_grouping_SHOT_Iterative_Obj-Scene  src/correspondence_grouping_SHOT_Iterative_Obj-Scene.cpp)
+#target_link_libraries (correspondence_grouping_SHOT_Iterative_Obj-Scene ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
 add_executable (pcd_size  src/pcd_size.cpp)
 target_link_libraries (pcd_size ${catkin_LIBRARIES} ${PCL_LIBRARIES})
@@ -52,8 +52,8 @@ target_link_libraries (pcd_size ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 add_executable (objectExtractor  src/objectExtractor.cpp)
 target_link_libraries (objectExtractor ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
-add_executable (correspondence_grouping_SHOT_Iterative_v2 src/correspondence_grouping_SHOT_Iterative_v2.cpp)
-target_link_libraries (correspondence_grouping_SHOT_Iterative_v2 ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+add_executable (correspondence_grouping_SHOT_Iterative_Obj-Scene_v2 src/correspondence_grouping_SHOT_Iterative_Obj-Scene_v2.cpp)
+target_link_libraries (correspondence_grouping_SHOT_Iterative_Obj-Scene_v2 ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
 #add_executable (correspondence_grouping_CSHOT src/correspondence_grouping_CSHOT.cpp)
 #target_link_libraries (correspondence_grouping_CSHOT ${catkin_LIBRARIES} ${PCL_LIBRARIES})
@@ -61,8 +61,8 @@ target_link_libraries (correspondence_grouping_SHOT_Iterative_v2 ${catkin_LIBRAR
 #add_executable (3DSIFT_Keypoints src/3DSIFT_Keypoints.cpp)
 #target_link_libraries (3DSIFT_Keypoints ${PCL_LIBRARIES})
 
-add_executable (correspondence_grouping_SHOT_Iterative_v3 src/correspondence_grouping_SHOT_Iterative_v3.cpp)
-target_link_libraries (correspondence_grouping_SHOT_Iterative_v3${catkin_LIBRARIES} ${PCL_LIBRARIES})
+add_executable (correspondence_grouping_SHOT_Iterative_Obj-Scene_v3 src/correspondence_grouping_SHOT_Iterative_Obj-Scene_v3.cpp)
+target_link_libraries (correspondence_grouping_SHOT_Iterative_Obj-Scene_v3${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
 add_executable (objectExtractorIterative src/objectExtractorIterative.cpp)
 target_link_libraries (objectExtractorIterative ${catkin_LIBRARIES} ${PCL_LIBRARIES})
